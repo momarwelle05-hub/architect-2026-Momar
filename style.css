@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gold;
+    background-color: #D8935C;
     position: sticky;
     top: 0px;
     z-index: 999;
@@ -10,21 +10,21 @@ header {
 
 nav a {
     margin: 8px;
-    text-decoration: none;
-    text-decoration: none;
     margin-right: 25px;
-    color: black;
     list-style: none;
     gap: 20px;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 a:hover {
     color: brown;
 }
 
 body {
     margin: 0px;
-    background-color: goldenrod;
+    background-color: #D8935C;
 }
 
 .hero {
@@ -35,17 +35,18 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 500px;
+    color: white;
 }
 
 .container {
     padding: 100px 0;
     width: 50vw;
     margin: auto;
-    background-color: gold;
+    background-color: #D8935C;
 }
 
 .hero2 {
-    background: rgba(255, 204, 0, 0.65);
+    background: hsla(50, 14%, 17%, 0.65);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     width: fit-content;
@@ -57,8 +58,7 @@ body {
 
 .categories {
     display: flex;
-
-    background-color: goldenrod;
+    background-color: #D8935C;
 }
 
 .category {
@@ -133,12 +133,17 @@ body {
     text-align: center;
     padding: 50px 30px;
     background: white;
-    background-color: goldenrod;
+    background-image: url(assets/couverture-dada-design-9KGB4HspwsM-unsplash.jpg);
+    background-position: center;
+
 }
 
 .avis h2 {
-    color: black;
-    margin-bottom: 45px;
+    color: white;
+    margin-bottom: 40px;
+    background: hsla(50, 14%, 17%, 0.65);
+    backdrop-filter: blur(6px);
+    border-radius: 25px;
 }
 
 .avis-container {
@@ -149,9 +154,12 @@ body {
 
 .avis-card {
     flex: 1;
-    color: black;
+    color: white;
     font-size: 20px;
     line-height: 1.6;
+    background: hsla(50, 14%, 17%, 0.65);
+    backdrop-filter: blur(6px);
+    border-radius: 25px;
 }
 
 .avis-card h3 {
@@ -182,10 +190,12 @@ body {
     margin: 18px 0;
     text-align: center;
 }
+
 .footer-logo {
     display: block;
     margin: 0 auto 15px auto;
 }
+
 .reseaux {
     display: flex;
     justify-content: center;
@@ -195,5 +205,5 @@ body {
 
 .reseaux a {
     font-size: 30px;
-    color:black;
+    color: black;
 }
