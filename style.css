@@ -7,7 +7,6 @@ header {
     top: 0px;
     z-index: 999;
 }
-
 nav a {
     margin: 8px;
     margin-right: 25px;
@@ -21,12 +20,10 @@ a{
 a:hover {
     color: brown;
 }
-
 body {
     margin: 0px;
     background-color: #D8935C;
 }
-
 .hero {
     background-image: url(assets/tarif-architecte-interieur-ynspir.webp);
     height: 500px;
@@ -37,14 +34,12 @@ body {
     min-height: 500px;
     color: white;
 }
-
 .container {
     padding: 100px 0;
     width: 50vw;
     margin: auto;
     background-color: #D8935C;
 }
-
 .hero2 {
     background: hsla(50, 14%, 17%, 0.65);
     backdrop-filter: blur(6px);
@@ -55,12 +50,10 @@ body {
     margin: auto;
     border-radius: 25px;
 }
-
 .categories {
     display: flex;
     background-color: #D8935C;
 }
-
 .category {
     position: relative;
     flex: 1;
@@ -71,14 +64,12 @@ body {
     justify-content: center;
     text-decoration: none;
 }
-
 .category img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
-
 .category-title {
     position: absolute;
     width: 70%;
@@ -92,25 +83,20 @@ body {
     font-weight: normal;
     letter-spacing: 1px;
 }
-
 .category:hover img {
     transform: scale(1.05);
 }
-
 @media (max-width: 768px) {
     .categories {
         flex-direction: column;
     }
-
     .category {
         height: 280px;
     }
-
     .category-title {
         font-size: 23px;
     }
 }
-
 .project {
     color: black;
     background-position: center;
@@ -119,7 +105,6 @@ body {
     margin: auto;
     padding: 4%;
 }
-
 .project5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -128,7 +113,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .avis {
     text-align: center;
     padding: 50px 30px;
@@ -137,7 +121,6 @@ body {
     background-position: center;
 
 }
-
 .avis h2 {
     color: white;
     margin-bottom: 40px;
@@ -145,13 +128,11 @@ body {
     backdrop-filter: blur(6px);
     border-radius: 25px;
 }
-
 .avis-container {
     display: flex;
     justify-content: space-around;
     gap: 40px;
 }
-
 .avis-card {
     flex: 1;
     color: white;
@@ -161,16 +142,13 @@ body {
     backdrop-filter: blur(6px);
     border-radius: 25px;
 }
-
 .avis-card h3 {
     font-style: italic;
     margin-top: 30px;
 }
-
 .avis-card span {
     font-size: 15px;
 }
-
 .footer {
     text-align: center;
     padding: 30px 20px;
@@ -179,30 +157,25 @@ body {
     align-items: center;
     text-align: center;
 }
-
 .footer-logo {
     width: 220px;
     margin-bottom: -33px;
 }
-
 .footer-contact p {
     font-size: 22px;
     margin: 18px 0;
     text-align: center;
 }
-
 .footer-logo {
     display: block;
     margin: 0 auto 15px auto;
 }
-
 .reseaux {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-top: 30px;
 }
-
 .reseaux a {
     font-size: 30px;
     color: black;
