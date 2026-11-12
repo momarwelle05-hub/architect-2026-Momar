@@ -2,36 +2,48 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: goldenrod;
+    background-color: gold;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
 }
+
 nav a {
     margin: 8px;
     text-decoration: none;
-       text-decoration: none;
+    text-decoration: none;
     margin-right: 25px;
     color: black;
+    list-style: none;
+    gap: 20px;
 }
+
 a:hover {
     color: brown;
 }
+
 body {
     margin: 0px;
+    background-color: goldenrod;
 }
+
 .hero {
     background-image: url(assets/tarif-architecte-interieur-ynspir.webp);
     height: 500px;
     background-position: center;
     display: flex;
-    justify-content: center; 
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
     min-height: 500px;
 }
+
 .container {
     padding: 100px 0;
     width: 50vw;
     margin: auto;
     background-color: gold;
 }
+
 .hero2 {
     background: rgba(255, 204, 0, 0.65);
     backdrop-filter: blur(6px);
@@ -42,11 +54,13 @@ body {
     margin: auto;
     border-radius: 25px;
 }
+
 .categories {
     display: flex;
 
     background-color: goldenrod;
 }
+
 .category {
     position: relative;
     flex: 1;
@@ -57,12 +71,14 @@ body {
     justify-content: center;
     text-decoration: none;
 }
+
 .category img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
+
 .category-title {
     position: absolute;
     width: 70%;
@@ -76,17 +92,108 @@ body {
     font-weight: normal;
     letter-spacing: 1px;
 }
+
 .category:hover img {
     transform: scale(1.05);
 }
+
 @media (max-width: 768px) {
     .categories {
         flex-direction: column;
     }
+
     .category {
         height: 280px;
     }
+
     .category-title {
         font-size: 23px;
     }
+}
+
+.project {
+    color: black;
+    background-position: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    padding: 4%;
+}
+
+.project5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.avis {
+    text-align: center;
+    padding: 50px 30px;
+    background: white;
+    background-color: goldenrod;
+}
+
+.avis h2 {
+    color: black;
+    margin-bottom: 45px;
+}
+
+.avis-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.avis-card {
+    flex: 1;
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.avis-card h3 {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.avis-card span {
+    font-size: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 220px;
+    margin-bottom: -33px;
+}
+
+.footer-contact p {
+    font-size: 22px;
+    margin: 18px 0;
+    text-align: center;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto 15px auto;
+}
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.reseaux a {
+    font-size: 30px;
+    color:black;
 }
